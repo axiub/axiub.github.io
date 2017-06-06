@@ -1,0 +1,68 @@
+# Dependencies
+markdown: kramdown
+# Permalinks
+permalink:	/blog/:title
+
+# Setup
+title:            Cinema Fulgor
+tagline:          'blog'
+description:      'My personal blog.'
+url:              http://axiub.github.io
+baseurl:          
+commentsystem:    disqus
+disqus:           axiu
+
+author:
+  name:           Wenjiao Bian
+  nickname:       axiu
+  github:         http://github.com/axiub
+  email:          wenjiaobian@gmail.com
+
+paginate:         5
+
+# Custom vars
+icon:             /assets/images/icon.png
+cover:            /assets/images/cover.jpg
+favicon:          /assets/images/favicon.ico
+
+social:
+  - icon:         twitter
+    url:          https://twitter.com/axiuaxiu
+    desc:         Follow me on twitter
+
+  - icon:         github
+    url:          https://github.com/axiub
+    desc:         Fork me on github
+
+  - icon:         instagram
+    url:          https://www.instagram.com/axiuaxiu/
+    desc:         Add me on instagram
+
+  - icon:         feed
+    url:          http://axiub.github.io/atom.xml
+    desc:         Subscribe to my feed
+
+menu:
+  - title:        Home
+    url:          /
+
+  - title:        Archive
+    url:          /archive.html
+
+  - title:        About
+    url:          /about
+
+copyright:
+  author:         axiu
+  url:            http://axiub.github.io
+  type_title:     Some rights reserved
+  type_url:       http://creativecommons.org/licenses/by-nc/2.5
+
+
+parallax:         false
+
+# Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
+google_analytics:  
+
+# Default Theme Color for Chrome on Android Lollipop (Use RGB ColorCode without `#`, e.g.: `db5945`)
+theme_color:       7E9576
